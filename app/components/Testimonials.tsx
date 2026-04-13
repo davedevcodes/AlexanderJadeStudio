@@ -10,25 +10,25 @@ const testimonials = [
     name: "Chidinma & Emeka Okafor",
     role: "Wedding Clients",
     review:
-      "Adaeze captured our wedding in a way that still gives us chills every time we look back at the photos. She has an incredible eye for emotion and light. Every image tells our story so beautifully. Worth every naira and more.",
+      "Alexander captured our wedding in a way that still gives us chills every time we look back at the photos. He has an incredible eye for emotion and light. Every image tells our story so beautifully. Worth every naira and more.",
     image: "C",
-    location: "Lekki, Lagos",
+    location: "Port Harcourt, Rivers",
   },
   {
     id: 2,
     name: "Temi Adeyemi",
     role: "Brand Shoot Client",
     review:
-      "I needed headshots for my business and Lumière Studio completely exceeded my expectations. Adaeze made me feel so comfortable in front of the camera. The final images were polished, professional, and absolutely stunning.",
+      "I needed headshots for my business and AlexanderStudio completely exceeded my expectations. Alexander made me feel so comfortable in front of the camera. The final images were polished, professional, and absolutely stunning.",
     image: "T",
-    location: "Victoria Island",
+    location: "Ada George",
   },
   {
     id: 3,
     name: "Bola & Kemi Williams",
     role: "Engagement Session",
     review:
-      "We couldn't have asked for a better photographer for our engagement shoot. The golden hour shots were breathtaking. She directed us naturally and the chemistry she captured between us was real and unscripted.",
+      "We couldn't have asked for a better photographer for our engagement shoot. The golden hour shots were breathtaking. He directed us naturally and the chemistry He captured between us was real and unscripted.",
     image: "B",
     location: "Ikoyi, Lagos",
   },
@@ -37,7 +37,7 @@ const testimonials = [
     name: "Funke Adeola",
     role: "Fashion Editorial",
     review:
-      "Working with Adaeze on our editorial was a dream. She understood the vision immediately and elevated it with her unique perspective. Every frame was intentional, dramatic, and magazine-ready.",
+      "Working with Alexander on our editorial was a dream. He understood the vision immediately and elevated it with her unique perspective. Every frame was intentional, dramatic, and magazine-ready.",
     image: "F",
     location: "Oniru, Lagos",
   },

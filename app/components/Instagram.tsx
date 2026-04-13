@@ -7,32 +7,32 @@ import { Instagram as InstagramIcon, Heart, ExternalLink } from "lucide-react";
 const igPosts = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1529636444744-adffc9135a5e?w=600&q=80",
+    src: "/images/IMG_9396.JPG",
     likes: "2.4k",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&q=80",
+    src: "/images/IMG_9401.JPG",
     likes: "1.8k",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&q=80",
+    src: "/images/IMG_9411.JPG",
     likes: "3.1k",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80",
+    src: "/images/IMG_9412.JPG",
     likes: "2.7k",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80",
+    src: "/images/IMG_9419.JPG",
     likes: "4.2k",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80",
+    src: "/images/IMG_9424.JPG",
     likes: "1.9k",
   },
 ];
@@ -74,7 +74,7 @@ export default function Instagram() {
                 fontFamily: "var(--font-body)",
               }}
             >
-              @lumiere.studio.ng
+              @Alexander.studio.ng
             </p>
           </div>
           <h2
@@ -103,7 +103,7 @@ export default function Instagram() {
           {igPosts.map((post, i) => (
             <motion.a
               key={post.id}
-              href="https://instagram.com"
+              href="https://instagram.com/alexander.studio.ng"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
@@ -162,7 +162,7 @@ export default function Instagram() {
         {/* CTA */}
         <div style={{ textAlign: "center" }}>
           <motion.a
-            href="https://instagram.com"
+            href="https://instagram.com/alexander.studio.ng"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.03 }}

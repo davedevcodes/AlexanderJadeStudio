@@ -5,10 +5,10 @@ import Image from "next/image";
 import { Award, Users, MapPin, Camera } from "lucide-react";
 
 const stats = [
-  { icon: Award, value: "7+", label: "Years Experience" },
-  { icon: Users, value: "400+", label: "Happy Clients" },
-  { icon: Camera, value: "1,200+", label: "Sessions Completed" },
-  { icon: MapPin, value: "Lagos", label: "Based In" },
+  { icon: Award, value: "5+", label: "Years Experience" },
+  { icon: Users, value: "210+", label: "Happy Clients" },
+  { icon: Camera, value: "350+", label: "Sessions Completed" },
+  { icon: MapPin, value: "Port Harcourt", label: "Based In" },
 ];
 
 export default function About() {
@@ -76,7 +76,7 @@ export default function About() {
               }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&q=80"
+                src="/images/IMG_9447-01.jpeg"
                 alt="Photographer at work"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -119,7 +119,7 @@ export default function About() {
                   marginBottom: "4px",
                 }}
               >
-                7+
+                5+
               </p>
               <p
                 style={{
@@ -189,10 +189,10 @@ export default function About() {
                 fontFamily: "var(--font-body)",
               }}
             >
-              I&apos;m Adaeze Okonkwo, a Lagos-based visual storyteller with over 7
+              I&apos;m Alexander Tare Yinzuo, a Port Harcourt-based visual storyteller with over 5
               years of experience capturing life&apos;s most meaningful moments.
               From intimate weddings in Ikoyi to high-fashion editorials in
-              Victoria Island, I bring a cinematic, emotion-first approach to
+              Port Harcourt, I bring a cinematic, emotion-first approach to
               every frame.
             </p>
             <p
@@ -204,8 +204,7 @@ export default function About() {
                 fontFamily: "var(--font-body)",
               }}
             >
-              My work has been featured in Vogue Africa, BellaNaija Weddings, and
-              several international publications. I believe great photography
+              I believe great photography
               doesn&apos;t just document — it reveals the soul of a moment.
             </p>
 

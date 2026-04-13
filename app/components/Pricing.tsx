@@ -6,7 +6,7 @@ import { Check, Star } from "lucide-react";
 const packages = [
   {
     name: "Mini Session",
-    price: "₦85,000",
+    price: "₦70,000",
     duration: "1 Hour",
     description: "Perfect for portraits, couple shots, or personal branding content.",
     features: [
@@ -22,7 +22,7 @@ const packages = [
   },
   {
     name: "Standard Shoot",
-    price: "₦180,000",
+    price: "₦120,000",
     duration: "3–4 Hours",
     description: "Our most popular package — ideal for engagement shoots, families & events.",
     features: [
@@ -40,7 +40,7 @@ const packages = [
   },
   {
     name: "Full Event Coverage",
-    price: "₦450,000",
+    price: "₦350,000",
     duration: "Full Day",
     description: "Complete wedding or event coverage with a second shooter included.",
     features: [

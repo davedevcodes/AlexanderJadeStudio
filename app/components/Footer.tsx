@@ -66,7 +66,7 @@ export default function Footer() {
                   letterSpacing: "0.05em",
                 }}
               >
-                Lumière
+                AlexanderStudio
               </span>
             </div>
             <p
@@ -79,7 +79,7 @@ export default function Footer() {
                 marginBottom: "28px",
               }}
             >
-              Award-winning photography studio based in Lagos, Nigeria.
+              Award-winning photography studio based in Port Harcourt, Nigeria.
               Capturing weddings, portraits, events, and fashion with a
               cinematic, emotion-first approach.
             </p>
@@ -180,9 +180,9 @@ export default function Footer() {
               gap: "6px",
             }}
           >
-            © {new Date().getFullYear()} Lumière Studio. Made with{" "}
+            © {new Date().getFullYear()} AlaxanderStudio. Made with{" "}
             <Heart size={12} color="var(--color-accent)" fill="var(--color-accent)" />{" "}
-            in Lagos, Nigeria.
+            in Port Harcourt, Nigeria.
           </p>
 
           <motion.a

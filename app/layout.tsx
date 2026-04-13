@@ -1,32 +1,44 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  variable: "--font-display",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
+});
 
 export const metadata: Metadata = {
-  title: "Lumière Studio | Premium Photography in Lagos",
+  title: "Alexander Studio | Premium Photography in Port Harcourt",
   description:
-    "Award-winning photographer based in Lagos, Nigeria. Specializing in weddings, portraits, events, and fashion photography. Capturing moments that matter.",
+    "Award-winning photographer based in Port Harcourt, Nigeria. Specializing in weddings, portraits, events, and fashion photography. Capturing moments that matter.",
   keywords: [
     "photographer Lagos",
     "wedding photographer Nigeria",
-    "portrait photography Lagos",
-    "event photographer Lagos",
+    "portrait photography Port Harcourt",
+    "event photographer Port Harcourt",
     "fashion photography Nigeria",
-    "professional photographer Lagos",
-    "Lumière Studio",
+    "professional photographer Port Harcourt",
+    "Alexander Studio",
   ],
-  authors: [{ name: "Lumière Studio" }],
+  authors: [{ name: "Alexander Studio" }],
   openGraph: {
-    title: "Lumière Studio | Premium Photography in Lagos",
+    title: "Alexander Studio | Premium Photography in Port Harcourt",
     description:
       "Award-winning photographer based in Lagos. Capturing moments that matter — weddings, portraits, events & fashion.",
     type: "website",
     locale: "en_NG",
-    siteName: "Lumière Studio",
+    siteName: "Alexander Studio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lumière Studio | Premium Photography in Lagos",
-    description: "Capturing moments that matter. Based in Lagos, available for travel.",
+    title: "Alexander Studio | Premium Photography in Port Harcourt",
+    description: "Capturing moments that matter. Based in Port Harcourt, available for travel.",
   },
   robots: {
     index: true,
@@ -44,7 +56,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={`${cormorant.variable} ${dmSans.variable}`}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

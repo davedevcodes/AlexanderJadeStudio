@@ -21,7 +21,7 @@ export default function Hero() {
     >
       {/* Background Image */}
       <Image
-        src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1920&q=85"
+        src="/images/IMG_9449.JPG"
         alt="Lumière Studio - Premium Photography"
         fill
         priority
@@ -65,7 +65,7 @@ export default function Hero() {
             marginBottom: "24px",
           }}
         >
-          Lagos · Nigeria · Est. 2018
+          Port Harcourt · Nigeria · Est. 2021
         </motion.p>
 
         {/* Main Title */}
@@ -76,16 +76,17 @@ export default function Hero() {
           style={{
             fontFamily: "var(--font-display)",
             fontSize: "clamp(3.5rem, 10vw, 8rem)",
-            fontWeight: 300,
+            fontStyle: "italic",
+            fontWeight: 500,
             lineHeight: 0.95,
             color: "#f5f0eb",
-            letterSpacing: "-0.01em",
+            letterSpacing: "0.02em",
             marginBottom: "28px",
           }}
         >
-          Lumière
+          Alexander
           <br />
-          <em style={{ fontStyle: "italic", fontWeight: 300 }}>Studio</em>
+          <em style={{ fontStyle: "italic", fontWeight: 500 }}>Studio</em>
         </motion.h1>
 
         {/* Tagline */}
