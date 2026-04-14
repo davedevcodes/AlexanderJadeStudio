@@ -14,7 +14,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Alexander Studio | Premium Photography in Port Harcourt",
+  title: "Alexander Jade Studio | Premium Photography in Port Harcourt",
   description:
     "Award-winning photographer based in Port Harcourt, Nigeria. Specializing in weddings, portraits, events, and fashion photography. Capturing moments that matter.",
   keywords: [
@@ -24,20 +24,20 @@ export const metadata: Metadata = {
     "event photographer Port Harcourt",
     "fashion photography Nigeria",
     "professional photographer Port Harcourt",
-    "Alexander Studio",
+    "Alexander Jade Studio",
   ],
-  authors: [{ name: "Alexander Studio" }],
+  authors: [{ name: "Alexander Jade Studio" }],
   openGraph: {
-    title: "Alexander Studio | Premium Photography in Port Harcourt",
+    title: "Alexander Jade Studio | Premium Photography in Port Harcourt",
     description:
       "Award-winning photographer based in Lagos. Capturing moments that matter — weddings, portraits, events & fashion.",
     type: "website",
     locale: "en_NG",
-    siteName: "Alexander Studio",
+    siteName: "Alexander Jade Studio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Studio | Premium Photography in Port Harcourt",
+    title: "Alexander Jade Studio | Premium Photography in Port Harcourt",
     description: "Capturing moments that matter. Based in Port Harcourt, available for travel.",
   },
   robots: {

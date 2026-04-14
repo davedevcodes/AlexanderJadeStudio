@@ -66,7 +66,7 @@ export default function Footer() {
                   letterSpacing: "0.05em",
                 }}
               >
-                AlexanderStudio
+                AlexanderJadeStudio
               </span>
             </div>
             <p

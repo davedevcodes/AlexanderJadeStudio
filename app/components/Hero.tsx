@@ -22,7 +22,7 @@ export default function Hero() {
       {/* Background Image */}
       <Image
         src="/images/IMG_9449.JPG"
-        alt="Lumière Studio - Premium Photography"
+        alt="Alexander Jade Studio - Premium Photography"
         fill
         priority
         sizes="100vw"
@@ -84,7 +84,7 @@ export default function Hero() {
             marginBottom: "28px",
           }}
         >
-          Alexander
+          Alexander Jade
           <br />
           <em style={{ fontStyle: "italic", fontWeight: 500 }}>Studio</em>
         </motion.h1>

@@ -19,7 +19,7 @@ const testimonials = [
     name: "Temi Adeyemi",
     role: "Brand Shoot Client",
     review:
-      "I needed headshots for my business and AlexanderStudio completely exceeded my expectations. Alexander made me feel so comfortable in front of the camera. The final images were polished, professional, and absolutely stunning.",
+      "I needed headshots for my business and AlexanderJadeStudio completely exceeded my expectations. Alexander made me feel so comfortable in front of the camera. The final images were polished, professional, and absolutely stunning.",
     image: "T",
     location: "Ada George",
   },

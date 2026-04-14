@@ -74,7 +74,7 @@ export default function Instagram() {
                 fontFamily: "var(--font-body)",
               }}
             >
-              @Alexander.studio.ng
+              @AlexanderJade.studio.ng
             </p>
           </div>
           <h2
@@ -103,7 +103,7 @@ export default function Instagram() {
           {igPosts.map((post, i) => (
             <motion.a
               key={post.id}
-              href="https://instagram.com/alexander.studio.ng"
+              href="https://instagram.com/alexanderjade.studio.ng"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}

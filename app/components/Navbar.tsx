@@ -89,7 +89,7 @@ export default function Navbar() {
                 letterSpacing: "0.05em",
               }}
             >
-              AlexanderStudio
+              AlexanderJadeStudio
             </span>
           </a>
 
